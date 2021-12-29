@@ -1,0 +1,16 @@
+Ta=0.1;
+Tc=0.01;
+sigma2e=0.0;
+global P;
+global w1;
+global w2;
+global w3;
+global p_hat;
+p_hat = [1 ; 1];
+w1 = 1;
+w2 = 1;
+w3 = 1;
+P = 200*eye(2);
+Tend=300;
+Yr = 1;
+wr=0.5;
